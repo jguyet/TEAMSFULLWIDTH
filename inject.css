@@ -1,0 +1,38 @@
+/* Copyright (c) 2020 Jeremy Guyet Author. All rights reserved.
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file. */
+
+
+.ts-message-list-container {
+  max-width: 100% !important;
+}
+
+.ts-message-list-item {
+  max-width: 100% !important;
+  padding: 0.45em!important;
+  /* padding: 1em !important; */
+}
+
+.message-list-common:not(.chat-style) thread .ts-message {
+  /* padding: .45rem 5.2rem .45rem 0 !important; */
+  padding: .45rem 0 .45rem 0 !important;
+}
+
+.ts-new-message {
+  max-width: 100% !important;
+}
+
+.new-message-common {
+  margin: 0 1em !important;
+}
+
+
+/* BACKGROUND TRANSPARENT */
+
+/* .message-body {
+  background-color: transparent !important;
+}
+
+.acc-thread-focusable, .media-left {
+  border-width: 0px;
+} */
